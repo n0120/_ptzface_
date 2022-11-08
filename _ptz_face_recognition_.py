@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 face_tolerance = 0.6 # 閾値
 
-# 保存されている人物の顔の画像を読み込む。
+# 保存されている人物の顔の画像を読み込む。 # パス名はあまり気にしないで❤
 known_face_imgs = []
 for path in ["C:\-\_ptzface_\Alexandre_Herchcovitch_0001.jpg", "C:\-\_ptzface_\Manuel_Gehring_0001.jpg", "C:\-\_ptzface_\Aishwarya_Rai_0001.jpg", "C:\-\_ptzface_\Bob_Beauprez_0001.jpg"]:
     img = face_recognition.load_image_file(path)
